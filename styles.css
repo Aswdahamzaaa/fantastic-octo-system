@@ -1,0 +1,65 @@
+
+body {
+    background: linear-gradient(to right, rgb(255, 100, 100), rgb(100, 200, 255)); 
+    font-family: 'Courier New', Courier, monospace; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.myp {
+    color: #4b0082; 
+    background-color: rgba(255, 255, 224, 0.8); 
+    font-size: 28px;
+    text-align: center;
+    padding: 30px; 
+    margin: 20px; 
+    border: 3px dashed #ff6347; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s, background-color 0.3s; 
+}
+
+.myp:hover {
+    transform: translateY(-5px); 
+    background-color: rgba(255, 255, 200, 0.9); 
+}
+
+
+#myfooter {
+    color: #800080;
+    background-color: rgba(255, 228, 196, 0.8); 
+    font-size: 28px;
+    text-align: center;
+    padding: 30px; 
+    margin: 20px; 
+    border: 3px dotted #4682b4; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s, background-color 0.3s; 
+}
+
+#myfooter:hover {
+    transform: translateY(-5px); 
+    background-color: rgba(255, 228, 196, 0.9); 
+}
+
+
+a {
+    color: #ff4500; 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+a:hover {
+    color: #ffe4e1; 
+    text-shadow: 1px 1px 3px rgba(255, 69, 0, 0.5); 
+}
+
+
+h3:nth-child(3) {
+    color: #ff1493; 
+    font-family: 'Georgia', serif; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
